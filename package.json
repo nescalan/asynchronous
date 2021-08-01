@@ -1,0 +1,24 @@
+{
+  "name": "asynchronous",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo con JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nescalan/asynchronous.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "asyn"
+  ],
+  "author": "Ing. Nelson G. Escalante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nescalan/asynchronous/issues"
+  },
+  "homepage": "https://github.com/nescalan/asynchronous#readme"
+}
