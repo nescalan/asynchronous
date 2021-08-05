@@ -1,11 +1,9 @@
 // Creacion de la Promesa
 const somthingWillHappen = () => {
   return new Promise((resolve, reject) => {
-    if (true) {
-      resolve("Hey, resuelto correctamente");
-    } else {
-      reject("Oops, ni modo - no se pudo");
-    }
+    true
+      ? resolve("Hey, resuelto correctamente")
+      : reject("Oops, ni modo - no se pudo");
   });
 };
 //Invocacion de la Promesa
@@ -16,7 +14,7 @@ somthingWillHappen()
 // Segunda Promesa
 const somethingWillHappen2 = () => {
   return new Promise((resolve, reject) => {
-    if (false) {
+    if (true) {
       setTimeout(() => {
         resolve("Verdadeo");
       }, 2000);
