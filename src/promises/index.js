@@ -1,5 +1,5 @@
 // Creacion de la Promesa
-const somthingWillHappen = () => {
+const somethingWillHappen = () => {
   return new Promise((resolve, reject) => {
     true
       ? resolve("Hey, resuelto correctamente")
@@ -7,7 +7,7 @@ const somthingWillHappen = () => {
   });
 };
 //Invocacion de la Promesa
-somthingWillHappen()
+somethingWillHappen()
   .then((response) => console.log(response))
   .catch((err) => console.error(err));
 
@@ -32,7 +32,7 @@ somethingWillHappen2()
 
 // Promesas encadenadas
 
-Promise.all([somthingWillHappen(), somethingWillHappen2()])
+Promise.all([somethingWillHappen(), somethingWillHappen2()])
   .then((response) => {
     console.log("Todo tuanis en la llamada encadenada");
   })
